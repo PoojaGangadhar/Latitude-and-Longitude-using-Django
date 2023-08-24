@@ -1,9 +1,9 @@
 # Latitude-and-Longitude-using-Django
-Django Rest Framework application to fetch the latitude and longitude of a place entered by user. \n
-The latitude and longitude of a place is fetched using the Opencage Geocoding API\n
-https://opencagedata.com/ \n
-After signing up a 30 charcter long alphanumeric string is assigned as your API Key, which is necessary for obtaining the latitude and longitude \n
-An example of reverse geocoding (getting the place by passing latitude and longitude values)\n
+Django Rest Framework application to fetch the latitude and longitude of a place entered by user. <br>
+The latitude and longitude of a place is fetched using the Opencage Geocoding API <br>
+https://opencagedata.com/ <br>
+After signing up a 30 charcter long alphanumeric string is assigned as your API Key, which is necessary for obtaining the latitude and longitude <br>
+An example of reverse geocoding (getting the place by passing latitude and longitude values)<br>
 
 from opencage.geocoder import OpenCageGeocode <br>
 from pprint import pprint <br>
